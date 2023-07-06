@@ -11,7 +11,7 @@ void setup() {
  
     Value= analogRead(potPin);
     float voltage=Value*(3.3/4095.0);
-    ph=(-7.4984*voltage)+ 28.77;
+    ph=(-7.486*voltage)+ 28.784;
     Serial.print("El valor de voltaje es: ");
     Serial.print(voltage);
     Serial.print(" | Y el de pH es: ");
